@@ -1,0 +1,32 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    background-color: #bb1cdb;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin-right: 20px;
+  }
+  
+  .navbar-item:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-item a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar-item a:hover {
+    text-decoration: underline;
+  }
+  
