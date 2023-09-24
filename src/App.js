@@ -7,6 +7,7 @@ import Navbar from "./components/NavBar"; // Update the import path for Navbar
 import Header from './components/Header'
 import Events from "./components/Events";
 import EventList from "./components/pages/EventsList";
+import Projects from "./components/pages/Projects";
 
 function App() {
   return (
@@ -17,8 +18,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/newsletters" element={<Newsletters />} />
-          <Route path="/Events" element={<Events />} />
-          <Route path="/Eventlists" element={<EventList />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/eventlist" element={<EventList />} />
+          <Route path="/projects" element={<Projects />} /> {/* Add the Projects route */}
+{/* Add the Projects route */}
           {/* Add more routes for other pages */}
         </Routes>
       </div>

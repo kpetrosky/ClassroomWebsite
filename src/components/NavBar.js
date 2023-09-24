@@ -16,7 +16,7 @@ const Navbar = () => {
           <a href="/newsletters">Newsletters</a>
         </li>
         <li className="navbar-item">
-          <a href="/work">Work</a>
+          <a href="/project">Project</a>
         </li>
         <li className="navbar-item">
           <a href="/events">Events</a>
