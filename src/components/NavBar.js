@@ -13,6 +13,9 @@ const Navbar = () => {
           <a href="/about">About</a>
         </li>
         <li className="navbar-item">
+          <a href="/expectations">Expectations</a>
+        </li>
+        <li className="navbar-item">
           <a href="/newsletters">Newsletters</a>
         </li>
         <li className="navbar-item">
@@ -21,6 +24,9 @@ const Navbar = () => {
         <li className="navbar-item">
           <a href="/events">Events</a>
         </li>
+        {/* <li className="navbar-item">
+          <a href="/Learning:">What we are Learning</a>
+        </li> */}
         <li className="navbar-item">
           <a href="/contact">Contact</a>
         </li>

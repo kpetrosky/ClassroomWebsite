@@ -1,0 +1,18 @@
+/* In your CSS file, e.g., App.css */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Two columns */
+    gap: 16px; /* Adjust the gap between images */
+    list-style: none; /* Remove list bullet points */
+    padding: 0; /* Remove default padding for the list */
+  }
+  
+  .image-grid li {
+    max-width: 50%; /* Ensure images don't exceed their container */
+  }
+  
+  .about-image {
+    width: 100%; /* Make sure images fill their container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

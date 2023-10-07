@@ -1,0 +1,32 @@
+/* newsletter.css */
+
+/* Style for the newsletter container */
+.newsletter-container {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  /* Style for newsletter images */
+  .newsletter-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for newsletter titles */
+  .newsletter-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Style for newsletter content */
+  .newsletter-content {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  /* Style for the main heading */
+  .newsletter-heading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  

@@ -1,7 +1,7 @@
 // src/components/Projects.js
 import React from "react";
 
-const Projects = () => {
+const Project = () => {
   // Define your class projects data here
   const projects = [
     { id: 1, title: "Project 1", description: "Description of Project 1" },
@@ -24,4 +24,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Project;

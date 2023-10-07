@@ -1,0 +1,11 @@
+/* In your CSS file, e.g., App.css */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 16px; /* Adjust the gap between images */
+  }
+  
+  .about-image {
+    max-width: 50%; /* Ensure images don't exceed their container */
+  }
+  
